@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+
+  <title>Simple Calculator</title> 
+   
+   </head>
+     <body> 
+
+  <div class="container"> 
+
+   <table border="10" bgcolor="#001111" cellpadding="5px" style="border-color: #001818; border-style: groove;"> 
+
+    <tbody> 
+
+     <tr> 
+
+      <td> 
+
+       <form name="calculator"> 
+
+        <input type="text" name="ans" value="" disabled> 
+
+        <p onclick="sound1()"> <input type="reset" style="background: #dbbdf0;" value="AC" class="ba"> <input type="button" style="background: #4f566e;" class="ab" value="()" onclick="document.calculator.ans.value+='()' "> <input type="button" style="background: #4f566e;" value="%" onclick="document.calculator.ans.value+='/100'" class="ab"> <input type="button" style="background: #4f566e;" value="÷" onclick="document.calculator.ans.value+='/'" class="ab"> </p> 
+
+        <p onclick="sound1()"> <input type="button" value="7" onclick="document.calculator.ans.value+='7'"> <input type="button" value="8" onclick="document.calculator.ans.value+='8'"> <input type="button" value="9" onclick="document.calculator.ans.value+='9'"> <input type="button" style="background: #4f566e;" value="×" onclick="document.calculator.ans.value+='*'" class="ab"> </p> 
+
+        <p onclick="sound1()"> <input type="button" value="4" onclick="document.calculator.ans.value+='4'"> <input type="button" value="5" onclick="document.calculator.ans.value+='5'"> <input type="button" value="6" onclick="document.calculator.ans.value+='6'"> <input type="button" style="background: #4f566e;" value="-" onclick="document.calculator.ans.value+='-'" class="ab"> </p> 
+
+        <p onclick="sound1()"> <input type="button" value="1" onclick="document.calculator.ans.value+='1'"> <input type="button" value="2" onclick="document.calculator.ans.value+='2'"> <input type="button" value="3" onclick="document.calculator.ans.value+='3'"> <input type="button" style="background: #4f566e;" value="+" onclick="document.calculator.ans.value+='+'" class="ab"> </p> 
+
+        <p onclick="sound1()"> <input type="button" value="0" onclick="document.calculator.ans.value+='0'"> <input type="button" value="•" onclick="document.calculator.ans.value+='.'"> <input type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)" style="width: 120px; border-radius: 30px; background: #006383;"> </p> 
+
+       </form> </td> 
+
+     </tr> 
+
+    </tbody> 
+
+   </table> 
+
+  </div><br><br>
+
+  <div>Made by Danish <a href="https://www.facebook.com/s.i.sabidbd?mibextid=ZbWKwL"></a></div> <br><br>
+       </body>
+  </html>
